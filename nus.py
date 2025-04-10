@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import RandomForestRegressor
 import streamlit as st
-df = pd.read_csv(r"C:\Users\Sara\Downloads\Battery_RUL (1).csv")
+df = pd.read_csv(r"C:\Users\Sara\Downloads\Battery_RUL.csv")
 df = df.dropna()
 
 # Feature/target separation
